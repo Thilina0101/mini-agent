@@ -1,0 +1,20 @@
+{
+  "name": "mini-agent",
+  "version": "1.0.0",
+  "description": "A small terminal AI coding agent powered by Claude",
+  "type": "module",
+  "bin": {
+    "mini-agent": "agent.mjs"
+  },
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.7"
+  }
+}
